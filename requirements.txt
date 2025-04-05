@@ -1,3 +1,6 @@
+# Windows-only packages removed: pywin32, pywin32-ctypes
+# Compatible with Python 3.10 on Linux
+
 annotated-types==0.7.0
 anyio==4.8.0
 asttokens==2.4.1
@@ -47,9 +50,6 @@ installer==0.7.0
 ipykernel==6.29.5
 ipython==8.26.0
 itsdangerous==2.2.0
-jaraco.classes==3.4.0
-jaraco.context==6.0.1
-jaraco.functools==4.1.0
 jedi==0.19.1
 Jinja2==3.1.5
 joblib==1.1.1
@@ -101,7 +101,6 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 python-multipart==0.0.20
 pytz==2024.2
-# pywin32-ctypes==0.2.3  ← Removed (Windows-only)
 PyYAML==6.0.2
 pyzmq==26.2.0
 RapidFuzz==3.12.2
